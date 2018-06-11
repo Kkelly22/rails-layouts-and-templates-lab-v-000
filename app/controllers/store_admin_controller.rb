@@ -5,7 +5,7 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
-    @orders = Order.all
+    @orders = ["Pepsi", "Chips"]
     render :layout=> "order_administration"
   end
 
