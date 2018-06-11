@@ -5,10 +5,11 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
-    render :layouts=> "orders"
+    render :layouts=> "order_administration"
   end
 
   def invoice
+    render :layouts=> "false"
   end
 
 end
